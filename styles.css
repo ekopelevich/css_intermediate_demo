@@ -1,0 +1,184 @@
+img {
+  width: 200px;
+}
+
+main {
+  width: 80%;
+  margin: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+}
+
+/* Positioning Styles */
+
+div {
+  width: 100px;
+  height: 100px;
+
+  /*position: relative;*/
+
+  /*position: absolute;
+  top: 40px;*/
+
+  /*position: fixed;*/
+}
+
+.yellow {
+  background-color: yellow;
+  /*left: 30px;*/
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+
+
+/* Combinator Styles */
+
+/*main > p {
+  text-transform: uppercase;
+}*/
+
+/*.first-paragraph ~ p {
+  font-size: 2em;
+}*/
+
+
+
+/* Attribute Selectors */
+
+/*input[type] {
+  background-color: teal;
+}*/
+
+/*input[type="text"] {
+  background-color: teal;
+}*/
+
+/*input[type^="e"] {
+  background-color: teal;
+}*/
+
+/*input[type$="d"] {
+  background-color: teal;
+}*/
+
+/*input[name*="ma"] {
+  background-color: teal;
+}*/
+
+/*Add a top margin to the submit button.*/
+
+/*input[type="button"] {
+  margin-top: 20px;
+}*/
+
+
+
+/* Pseudo Classes */
+
+/*a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: orange;
+}*/
+
+
+
+/* Text Based Pseudo Selectors */
+
+/*p:first-line {
+  color: lime;
+}
+
+p:first-letter {
+  font-size: 3em;
+  color: purple;
+}*/
+
+/*p:before {
+  content: "g32 Rocks!";
+  color: blue;
+}
+
+p:after {
+  content: "g32 still Rocks!";
+  color: red;
+}*/
+
+/* Child Selectors */
+
+/*p:first-child {
+  color: red;
+}*/
+
+/*p:last-child {
+  color: blue;
+}
+
+p:nth-child(odd) {
+  color: orange;
+}
+
+p:nth-child(even) {
+  color: teal;
+}
+
+p:nth-child(3) {
+  color: purple;
+}
+
+p:nth-child(3n + 4) {
+  color: yellow;
+}
+
+p:first-of-type {
+  background-color: yellow;
+}*/
+
+/*p:last-of-type {
+  background-color: orange;
+}*/
+
+/*p:nth-of-type(odd) {
+  background-color: green;
+}*/
+
+/*Font Styles*/
+
+/*.dolor {
+  font-size: 2em;
+}
+
+.minum {
+  font-variant: small-caps;
+}
+
+.cillum {
+  line-height: 4em;
+}*/
